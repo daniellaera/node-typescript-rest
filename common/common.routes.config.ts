@@ -1,7 +1,7 @@
 import express from 'express';
 
 export abstract class CommonRoutesConfig {
-    app: express.Application
+    app: express.Application;
     name: string;
 
     constructor(app: express.Application, name: string) {
