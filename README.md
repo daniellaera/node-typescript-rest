@@ -1,10 +1,22 @@
 # Node Typescript REST API
 
-Download the Project and type in your terminal `npm i` and start your server with `npm start`.
+Download the Project and type in your terminal
 
-Make sure you use the node version defined in the `cat .nvmrc` : v14.17.3. Use `nvm use`.
+### `npm i`
 
-If you want to run your Docker Container with MongoDB locally just type `docker compose up -d` and start your container.
+and start your server with
+
+### `npm start`
+
+Make sure you use the node version defined in the `cat .nvmrc`; you should use the Node v14.17.3
+
+You can also type `nvm use` in case you're using another global version.
+
+If you want to run your Docker Container with MongoDB locally just type
+
+## `docker compose up -d`
+
+and start your container.
 
 You can display your data with a tool like Robo 3T and create a local connection at `localhost:27017`.
 
@@ -44,4 +56,20 @@ you'll get a response like:
 
 and use the `"accessToken"` to make a `GET` request for a specific user `http://localhost:3000/users/FlE2Nl313` for example and try to get the response.
 
-Don't forget to use the `"accessToken"` as the `Authorization`: `Bearer Token` and paste the token in the `Token` value 
+Example:
+```
+
+{
+    "_id": "p5op9SQTN",
+    "permissionLevel": 1,
+    "email": "hulk@hotmail.com",
+    "__v": 0
+}
+
+```
+
+Don't forget to use the `"accessToken"` as the `Authorization`: `Bearer Token` and paste the token in the `Token` value.
+
+Run tests
+
+### `npm test`
