@@ -2,8 +2,6 @@ import { CommonRoutesConfig } from '../common/common.routes.config';
 import AuthController from './controllers/auth.controller';
 import AuthMiddleware from './middleware/auth.middleware';
 import express from 'express';
-import BodyValidationMiddleware from '../common/middleware/body.validation.middleware';
-import { body } from 'express-validator';
 import jwtMiddleware from './middleware/jwt.middleware';
 
 export class AuthRoutes extends CommonRoutesConfig {
