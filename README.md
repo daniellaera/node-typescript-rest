@@ -8,13 +8,9 @@ and start your server with
 
 ### `npm start`
 
-Make sure you use the node version defined in the 
+Make sure you use the node version defined in the `cat .nvmrc`; you should use the Node v14.17.3
 
-# `cat .nvmrc`
-
-you should use the Node v14.17.3
-
-then you can type `nvm use` in case you're using another global version.
+You can also type `nvm use` in case you're using another global version.
 
 If you want to run your Docker Container with MongoDB locally just type
 
