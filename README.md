@@ -8,9 +8,17 @@ and start your server with
 
 ### `npm start`
 
-Make sure you use the node version defined in the `cat .nvmrc` : v14.17.3. Use `nvm use`.
+Make sure you use the node version defined in the 
 
-If you want to run your Docker Container with MongoDB locally just type `docker compose up -d` and start your container.
+## `cat .nvmrc` : v14.17.3.
+&
+## `nvm use`
+
+If you want to run your Docker Container with MongoDB locally just type
+
+## `docker compose up -d`
+
+and start your container.
 
 You can display your data with a tool like Robo 3T and create a local connection at `localhost:27017`.
 
