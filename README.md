@@ -10,7 +10,7 @@ and start your server with
 
 Make sure you use the node version defined in the 
 
-## `cat .nvmrc` : v14.17.3.
+## `cat .nvmrc` : v14.17.3
 
 then
 
