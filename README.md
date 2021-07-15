@@ -1,6 +1,12 @@
 # Node Typescript REST API
 
-Download the Project and type in your terminal `npm i` and start your server with `npm start`.
+Download the Project and type in your terminal
+
+### `npm i`
+
+and start your server with
+
+### `npm start`
 
 Make sure you use the node version defined in the `cat .nvmrc` : v14.17.3. Use `nvm use`.
 
@@ -44,4 +50,8 @@ you'll get a response like:
 
 and use the `"accessToken"` to make a `GET` request for a specific user `http://localhost:3000/users/FlE2Nl313` for example and try to get the response.
 
-Don't forget to use the `"accessToken"` as the `Authorization`: `Bearer Token` and paste the token in the `Token` value 
+Don't forget to use the `"accessToken"` as the `Authorization`: `Bearer Token` and paste the token in the `Token` value.
+
+Run tests
+
+### `npm test`
