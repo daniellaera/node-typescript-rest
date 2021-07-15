@@ -10,7 +10,7 @@ and start your server with
 
 Make sure you use the node version defined in the 
 
-## `cat .nvmrc`
+# `cat .nvmrc`
 
 you should use the Node v14.17.3
 
@@ -59,6 +59,18 @@ you'll get a response like:
 ```
 
 and use the `"accessToken"` to make a `GET` request for a specific user `http://localhost:3000/users/FlE2Nl313` for example and try to get the response.
+
+Example:
+```
+
+{
+    "_id": "p5op9SQTN",
+    "permissionLevel": 1,
+    "email": "hulk@hotmail.com",
+    "__v": 0
+}
+
+```
 
 Don't forget to use the `"accessToken"` as the `Authorization`: `Bearer Token` and paste the token in the `Token` value.
 
