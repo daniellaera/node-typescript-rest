@@ -34,6 +34,7 @@ You can authentifiy the user `POST` request to `localhost:3000/auth` and still w
 
 you'll get a response like:
 
+```
 {
     "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJGbEUyTmwzMTMiLCJlbWFpbCI6ImphbmVkYW5lQGhvdG1haWwuY29tIiwicHJvdmlkZXIiOiJlbWFpbCIsInBlcm1pc3Npb25MZXZlbCI6MSwicmVmcmVzaEtleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6WzI0LDg0LDEwMyw0Nyw3NSwyMzksMTc4LDEzNCwyMDgsMjEyLDEwMiw1MSwxNjgsMTM4LDgyLDE0XX0sImlhdCI6MTYyNjMzMjkzMSwiZXhwIjoxNjI2MzY4OTMxfQ.KqwUoK7oqoEw-Jz99a8etUGV38Q3hprAv-u0B5IHpfg",
     "refreshToken": "CLD2tH8XShRb60gsgxPeVI+OWTzhifrzHkgInUayDq1RGZYsUPeiHyKtoLP81UKt2m0I1WByF9pPf0Cwh3FcCQ=="
