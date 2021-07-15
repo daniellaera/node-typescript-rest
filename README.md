@@ -10,4 +10,12 @@ The endpoint is available at `localhost:3000`.
 
 In your Terminal `curl --request GET localhost:3000`.
 
-You can start sending `POST` request to `localhost:3000/users` and create your first user.
+You can start sending `POST` request to `localhost:3000/users` and create your first user and make sure you add a json body in Postman Client like:
+
+```
+{
+    "email":"janedane@hotmail.com",
+    "password":"123456"
+}
+
+```
