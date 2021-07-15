@@ -8,4 +8,6 @@ You can display your data with a tool like Robo 3T and create a local connection
 
 The endpoint is available at `localhost:3000`.
 
+In your Terminal `curl --request GET localhost:3000`.
+
 You can start sending `POST` request to `localhost:3000/users` and create your first user.
