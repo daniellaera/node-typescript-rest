@@ -59,7 +59,7 @@ class JwtMiddleware {
             try {
                 const authorization = req.headers['authorization'].split(' ');
                 if (authorization[0] !== 'Bearer') {
-                    return res.status(401).send();
+                    return res.status(401).send({ errors: ['You should provide a Bearer Token Authorization']});
                 } else {
                     res.locals.jwt = jwt.verify(
                         authorization[1],
@@ -68,10 +68,10 @@ class JwtMiddleware {
                     next();
                 }
             } catch (err) {
-                return res.status(403).send();
+                return res.status(403).send({ errors: ['Invalid Bearer Token'] });
             }
         } else {
-            return res.status(401).send();
+            return res.status(401).send({ errors: ['Not authorized'] });
         }
     }
 }
