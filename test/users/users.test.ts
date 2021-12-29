@@ -173,4 +173,14 @@ describe('users and auth endpoints', function () {
             });
         });
     });
+
+    describe('with an invalid Authorization', async function () {
+        it('should return unauthorized (401) a POST to /users', async () => {
+            const res = await request
+                .get(`/users`)
+                .set({ Authorization: `Not Bearer ${accessToken}` })
+                .send();
+            expect(res.status).to.equal(401);
+        });
+    });
 });
